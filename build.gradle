@@ -1,0 +1,31 @@
+apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'jetty'
+apply plugin: 'eclipse-wtp'
+
+repositories {
+    maven{
+        url "file:///Applications/maven-repository/"
+    }
+    maven { url 'http://maven.oschina.net/content/groups/public/' }
+    mavenCentral()
+}
+
+dependencies {
+   providedCompile 'javax.servlet:servlet-api:2.5'
+    compile 'org.springframework:spring-webmvc:3.2.12.RELEASE'
+    compile "org.springframework:spring-context:3.2.12.RELEASE"
+    compile "org.springframework:spring-tx:3.2.12.RELEASE"
+    compile "org.codehaus.jackson:jackson-mapper-asl:1.6.4"
+    compile 'org.apache.poi:poi:3.10-FINAL'
+    compile "org.apache.commons:commons-lang3:3.3.2"
+    compile "org.slf4j:slf4j-api:1.6.1"
+    compile "org.slf4j:slf4j-log4j12:1.6.1"
+    compile "log4j:log4j:1.2.16"
+    compile "net.sf.json-lib:json-lib:2.4:jdk15"
+    runtime 'javax.servlet:jstl:1.2'
+}
+
+/* Change context path (base url). otherwise defaults to name of project */
+jettyRunWar.contextPath = '' 
