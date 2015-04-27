@@ -22,7 +22,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
  *
  * @author james mo rest 客户端
  *
- *         校园版自然人控制类
  *
  */
 @Controller

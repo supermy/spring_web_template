@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.*;
 
 /*
- * 门户后台功能业务控制类
+ * 功能业务控制类
  * 
  */
 @Repository
