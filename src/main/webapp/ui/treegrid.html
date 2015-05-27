@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>管理平台-树:表格拖拽</title>
+
+
+    <link href="../webjars/extjs/4.2.1.883/resources/css/ext-all-gray.css" rel="stylesheet"/>
+    <!--<link  href="resources/css/icon.css" rel="stylesheet"/>-->
+    <script src="../webjars/extjs/4.2.1.883/ext-all.js"></script>
+    <script src="../webjars/extjs/4.2.1.883/locale/ext-lang-zh_CN.js"></script>
+    <script src="common.js"></script>
+
+    <style>
+        #header {
+            width: 100%;
+            height: 50px;
+            background: #ADD2ED;
+            font-size: 25px;
+            font-weight: bold;
+            color: #157FCC;
+        }
+
+        .tdValign {
+            vertical-align: middle
+        }
+
+        .mybuttoncss2 {
+            border: 0px solid #fff;
+            background: #fff;
+        }
+
+        .mybuttoncss3 {
+        / / border : red 1 px solid;
+            background-color: red;
+        }
+    </style>
+
+<body style="overflow-x:hidden;overflow-y:auto;">
+
+<div id="header" class="x-hidden">管理平台-树:表格拖拽</div>
+
+<script>
+
+    Ext.application({
+        name: 'My',
+        controllers: ['My.controller.TreeGridController'],
+        launch: function () {
+            Ext.create('Ext.container.Viewport', {
+                layout: 'auto',
+                items: [{
+                    xtype: 'treegridwindow'
+                }]
+            });
+        }
+    });
+</script>
+
+
+</body>
+
+</html>

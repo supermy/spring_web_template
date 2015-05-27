@@ -1,0 +1,128 @@
+{
+	children:[
+		{
+			typeId:10001,
+			typeName:'产品管理',
+			typeDesc:'产品',
+			expanded: true,
+			iconCls: 'task-folder',
+			children:[
+				{
+					typeId:100011,
+					typeName:'固化管理',
+					typeDesc:'固化',
+					iconCls: 'task',
+					leaf:true
+				},
+				{
+					typeId:100012,
+					typeName:'品牌产品',
+					typeDesc:'品牌',
+					isValid:true,
+					iconCls: 'task-folder',
+					children:[
+						
+							{
+								typeId:1000121,
+								typeName:'付费方式',
+								typeDesc:'付费',
+								iconCls: 'task',
+								leaf:true	
+							},
+							{
+								typeId:1000122,
+								typeName:'网别',
+								typeDesc:'网别',
+								iconCls: 'task-folder',
+								children:[
+									{
+										typeId:10001221,
+										typeName:'2G',
+										typeDesc:'2G',
+										iconCls: 'task-folder',
+										children:[
+											{
+												typeId:100012211,
+												typeName:'5元卡、久聊卡',
+												typeDesc:'5元卡、久聊卡',
+												iconCls: 'task',
+												leaf:true
+											}
+										]
+									},
+									{
+										typeId:10001222,
+										typeName:'3G',
+										typeDesc:'3G',
+										isValid:true,
+										iconCls: 'task-folder',
+										children:[
+											{
+												typeId:100012221,
+												typeName:'沃派极速卡',
+												typeDesc:'沃派',
+												isValid:true,
+												iconCls: 'task',
+												leaf:true	
+											},
+											{
+												typeId:100012222,
+												typeName:'惠通卡',
+												typeDesc:'惠通',
+												iconCls: 'task',
+												leaf:true
+											},
+											{
+												typeId:100012223,
+												typeName:'快卡',
+												typeDesc:'快卡',
+												iconCls: 'task',
+												leaf:true
+											},
+											{
+												typeId:100012224,
+												typeName:'旺富卡',
+												typeDesc:'旺富',
+												iconCls: 'task',
+												leaf:true	
+											},
+											{
+												typeId:100012225,
+												typeName:'186套餐',
+												typeDesc:'套餐',
+												iconCls: 'task',
+												leaf:true	
+											}
+										]
+									},
+									{
+										typeId:10001223,
+										typeName:'4G',
+										typeDesc:'4G',
+										iconCls: 'task-folder',
+										children:[
+											{
+												typeId:100012231,
+												typeName:'3-4G一体化',
+												typeDesc:'一体化',
+												iconCls: 'task',
+												leaf:true	
+											}
+										]	
+									}
+									
+								]
+							},
+							{
+								typeId:1000123,
+								typeName:'产品有效期',
+								typeDesc:'有效期',
+								iconCls: 'task',
+								leaf:true	
+							}	
+					]
+				}
+			]
+		}
+	]	
+}

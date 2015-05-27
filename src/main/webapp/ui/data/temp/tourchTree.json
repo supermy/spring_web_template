@@ -1,0 +1,31 @@
+{
+    "children": [
+		{"text": "01-地点触发", "children":[
+			{"id":"011","text":"用户在机场停留","leaf":"true"},
+			{"id":"012","text":"用户在书店、图书馆停留","leaf":"true"},
+			{"id":"013","text":"用户在校园停留 ","leaf":"true"},
+			{"id":"014","text":"用户在地铁停留","leaf":"true"}
+		] }	,
+			{"text": "02-超套餐触发", "children":[
+			{"id":"021","text":"用户在套餐用完后","leaf":"true"}
+			
+		] }	,
+			{"text": "03-呼叫触发", "children":[
+			{"id":"031","text":"用户在呼叫后","leaf":"true"},
+			{"id":"032","text":"用户在接听后","leaf":"true"}
+		] }	,
+			{"text": "04-漫游触发", "children":[
+			{"id":"041","text":"用户在漫游地接听电话","leaf":"true"},
+			{"id":"042","text":"用户在漫游地呼出电话","leaf":"true"},
+			{"id":"043","text":"用户在漫游地上网","leaf":"true"}
+	
+		] }	,
+			{"text": "05-上网触发", "children":[
+			{"id":"051","text":"用户浏览阅读类网站","leaf":"true"},
+			{"id":"052","text":"用户购买图书","leaf":"true"},
+			{"id":"053","text":"用户浏览新闻门户网站 ","leaf":"true"},
+			{"id":"054","text":"用户有购买彩票行为","leaf":"true"}
+		] }	
+		
+	]
+}

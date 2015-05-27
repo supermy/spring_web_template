@@ -14,6 +14,7 @@ repositories {
 
 dependencies {
    providedCompile 'javax.servlet:servlet-api:2.5'
+    compile 'org.webjars:extjs:4.2.1.883-1'
     compile 'org.springframework:spring-webmvc:3.2.12.RELEASE'
     compile "org.springframework:spring-context:3.2.12.RELEASE"
     compile "org.springframework:spring-tx:3.2.12.RELEASE"

@@ -1,0 +1,66 @@
+{
+    "children": [
+		{"text": "01-人文特征", "children":[
+			{"id":"010","text":"年龄","desc":"1111","leaf":"true"},
+			{"id":"011","text":"性别","leaf":"true"},
+			{"id":"012","text":"子网时常","leaf":"true"},
+			{"id":"013","text":"入网渠道","leaf":"true"},
+			{"id":"014","text":"客户类型","leaf":"true"},
+			{"id":"015","text":"会员等级","leaf":"true"}
+		] }	,
+		{"text": "02-用户价值", "children":[
+			{"id":"021","text":"增值消费收入","leaf":"true"},
+			{"id":"022","text":"用户收入总和","leaf":"true"},
+			{"id":"023","text":"短信出账收入","leaf":"true"}
+		] }	,
+		{"text": "03-产品需求", "children":[
+			{"id":"031","text":"品牌","leaf":"true"},
+			{"id":"032","text":"增值业务订购","leaf":"true"},
+			{"id":"033","text":"捆绑类型","leaf":"true"}
+		] }	,
+		{"text": "04-终端属性", "children":[
+			{"text": "041-IPHONE", "children":[
+				{"id":"0410","text":"Iphone4,4s","leaf":"true"},
+				{"id":"0411","text":"Iphone5,5s,5c","leaf":"true"},
+				{"id":"0412","text":"Iphone6","leaf":"true"},
+				{"id":"0413","text":"Iphone plus","leaf":"true"}
+			] },
+			{"text": "042-Android", "children":[
+				{"id":"0420","text":"三星","leaf":"true"},
+				{"id":"0421","text":"小米","leaf":"true"},
+				{"id":"0422","text":"联想","leaf":"true"},
+				{"id":"0423","text":"金立","leaf":"true"},
+				{"id":"0424","text":"酷派","leaf":"true"},
+				{"id":"0425","text":"其他","leaf":"true"}
+			] }
+		] }	,
+		{"text": "05-使用行为", "children":[
+			{"id":"050","text":"流量","leaf":"true"},
+			{"id":"051","text":"通话","leaf":"true"},
+			{"id":"052","text":"短信","leaf":"true"}
+		] },
+		{"text": "06-上网分析", "children":[
+			{"text": "060-所在地区", "children":[
+				{"id":"0601","text":"省","leaf":"true"},
+				{"id":"0602","text":"市","leaf":"true"},
+				{"id":"0603","text":"区","leaf":"true"},
+				{"id":"0604","text":"县","leaf":"true"}
+			] },
+			{"text": "061-关注", "children":[
+				{"id":"0611","text":"阅读","leaf":"true"},
+				{"id":"0612","text":"音乐","leaf":"true"},
+				{"id":"0613","text":"新闻","leaf":"true"},
+				{"id":"0614","text":"视频","leaf":"true"},
+				{"id":"0615","text":"应用商店","leaf":"true"},
+				{"id":"0616","text":"社交","leaf":"true"},
+				{"id":"0617","text":"购物","leaf":"true"},
+				{"id":"0618","text":"工具","leaf":"true"}
+			] },
+			{"id":"062","text":"网站","leaf":"true"},
+			{"id":"063","text":"使用软件","leaf":"true"},
+			{"id":"064","text":"上网时段","leaf":"true"},
+			{"id":"065","text":"搜索","leaf":"true"}
+		] }
+		
+	]
+}

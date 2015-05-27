@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: commons-lang:commons-lang:2.5">
+    <CLASSES>
+      <root url="jar://$M2_REPO$/commons-lang/commons-lang/2.5/commons-lang-2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$M2_REPO$/commons-lang/commons-lang/2.5/commons-lang-2.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
